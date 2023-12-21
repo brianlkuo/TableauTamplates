@@ -5,7 +5,7 @@ import tableauserverclient as TSC
 # Tableau Server information
 tableau_server_url = "http://SampleServer.com/"
 api_version = VERSION  # Choose the appropriate API version
-view_id = "" # Need to identify view name first
+view_id = "" # Need to identify view name first, see find_workbook_and_view_id.py
 username = ""
 password = ""
 download_folder = "C:\\Users\\user\\Downloads"
