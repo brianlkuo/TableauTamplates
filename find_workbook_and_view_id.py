@@ -53,7 +53,7 @@ with server.auth.sign_in(tableau_auth):
     if not view_id:
         raise Exception(f"View '{view_name}' not found in workbook '{workbook_name}'.")
 
-# Get the crosstab data
+# Get the crosstab data - WIP
     # csv_export_url = f"{server}/views/{view_id}/data"
 
     # response = requests.get(csv_export_url, auth=(username, password))
