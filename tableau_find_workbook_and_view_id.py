@@ -5,7 +5,7 @@ import requests
 from requests.auth import HTTPBasicAuth
 import pandas as pd
 from io import StringIO
-from version import VERSION
+from version import VERSION #python file that specifies version of api, for example, content could be "VERSION = '3.19'"
 
 # Tableau Server information
 server = 'http://SampleServer.com/'
